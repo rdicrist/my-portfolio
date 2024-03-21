@@ -1,6 +1,10 @@
 import { Html, Head, Main, NextScript } from "next/document";
 import { DocumentHeadTags,documentGetInitialProps,} from '@mui/material-nextjs/v13-pagesRouter';
 
+// import createEmotionServer from '@emotion/server/create-instance'; 
+// import theme from '../src/theme'; 
+// import createEmotionCache from '../src/createEmotionCache'; 
+
 export default function Document(props) {
   return (
     <Html lang="en">

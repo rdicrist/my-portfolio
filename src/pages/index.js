@@ -1,4 +1,6 @@
 import Hero from '@/components/Hero';
+
+import styles from '../styles/Home.module.css'
 // import About from '@/components/About';
 // import Skills from '@/components/Skills';
 // import Projects from '@/components/Projects';
@@ -8,7 +10,7 @@ import Head from "next/head";
 
 const Home = () => {
   return (
-    <>
+    <div className={styles.container}>
       <Head>
         <title>Ricki's Portfolio</title>
         <meta name="description" content="Ricki's Portfolio" />
@@ -22,7 +24,7 @@ const Home = () => {
         <Projects />
         <Contact /> */}
       </div>
-    </>
+    </div>
   );
 };
 

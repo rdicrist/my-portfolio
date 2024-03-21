@@ -2,6 +2,10 @@
 
 import Image from "next/image";
 
+import Switch from "@mui/material/Switch";
+
+const label = { inputProps: { "aria-label": "Switch demo" } };
+
 const Hero = () => {
   return (
     <div className="hero-container">
